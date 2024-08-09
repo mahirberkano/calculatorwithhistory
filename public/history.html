@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="history">
+        <h1>Calculation History</h1>
+        
+        <table id="historyTable">
+            <thead>
+                <tr>
+                    <th>Expression</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody id="historyBody">
+                <!-- Calculation history will be appended here -->
+            </tbody>
+        </table>
+        <button class="wide-button" onclick="location.href='index.html'">Back to Calculator</button>
+        <button class="wide-button" id="clearHistoryButton">Clear History</button> <!-- New button -->
+    </div>
+    <script src="js/history.js"></script>
+</body>
+</html>
